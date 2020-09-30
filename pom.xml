@@ -125,13 +125,11 @@
         <!-- Sonar -->
         <sonar.host.url>https://builds.apache.org/analysis/</sonar.host.url>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
+        <sonar.projectKey>leofuxiaohui_struts</sonar.projectKey>
+        <sonar.organization>leofuxiaohui</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
-    <properties>
-      <sonar.projectKey>leofuxiaohui_struts</sonar.projectKey>
-      <sonar.organization>leofuxiaohui</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
 
     <profiles>
         <profile>
